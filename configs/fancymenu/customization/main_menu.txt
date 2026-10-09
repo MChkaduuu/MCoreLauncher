@@ -1,0 +1,406 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1791576437694
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+menu_background {
+  instance_identifier = a963e41a-4341-5063-b3a5-53f741afd102
+  background_type = image
+  image_path = [source:local]/config/fancymenu/assets/bg.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+}
+
+layout_action_executable_blocks {
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = modmenu_titlescreen_mods_button
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+element {
+  element_type = image
+  instance_identifier = 6a2ce2ee-4430-51f3-bb2a-b54f4ea12a2d
+  anchor_point = mid-left
+  sticky_anchor = true
+  x = 95
+  y = -51
+  width = 240
+  height = 174
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  source = [source:local]/config/fancymenu/assets/logo.png
+  repeat_texture = false
+  nine_slice_texture = false
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 062cecaa-a766-5e44-a193-42d5d87cef2a
+  anchor_point = mid-left
+  sticky_anchor = true
+  x = 115
+  y = 68
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = სერვერზე შესვლა
+  button_element_executable_block_identifier = blk_dcd93612
+  [executable_block:blk_dcd93612][type:generic] = [executables:5b3da925;]
+  [executable_action_instance:5b3da925][action_type:joinserver] = mtarp.mcsh.io
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_disabled.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_42c1835d] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_42c1835d
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = b1e213c2-dfe1-5e3e-9dc3-4ca40f345654
+  anchor_point = mid-left
+  sticky_anchor = true
+  x = 115
+  y = 98
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = პარამეტრები
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_disabled.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_a5c1e863] = [groups:][instances:474ee874;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][req_id:474ee874] = mythos_locked_never_installed
+  widget_active_state_requirement_container_identifier = act_a5c1e863
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 291c3cdb-75ff-5cf7-9522-6512b63d3a42
+  anchor_point = mid-left
+  sticky_anchor = true
+  x = 115
+  y = 128
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = გამოსვლა
+  button_element_executable_block_identifier = blk_a71c95b1
+  [executable_block:blk_a71c95b1][type:generic] = [executables:49b47a01;]
+  [executable_action_instance:49b47a01][action_type:quitgame] = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_disabled.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_67e29e7f] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_67e29e7f
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 8f626cfb-a32b-51fd-933c-6458180eae1d
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 161
+  y = -40
+  width = 28
+  height = 28
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = 
+  button_element_executable_block_identifier = blk_44b32890
+  [executable_block:blk_44b32890][type:generic] = [executables:6e8e8f21;]
+  [executable_action_instance:6e8e8f21][action_type:openlink] = http://discord.gg/V5aAEYNmSZ
+  backgroundnormal = [source:local]/config/fancymenu/assets/icon_discord.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icon_discord_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/icon_discord.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_fbe9fe36] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_fbe9fe36
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 69b11186-2f50-5076-9ed9-ff7be5183b10
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 201
+  y = -40
+  width = 28
+  height = 28
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = 
+  button_element_executable_block_identifier = blk_6b580ad4
+  [executable_block:blk_6b580ad4][type:generic] = [executables:61f3a44b;]
+  [executable_action_instance:61f3a44b][action_type:openlink] = https://www.youtube.com/@chkaduuu-mc
+  backgroundnormal = [source:local]/config/fancymenu/assets/icon_youtube.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icon_youtube_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/icon_youtube.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_5408893f] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_5408893f
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = bf9651f2-38c6-534b-9ff9-cc07fa8eb4df
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 241
+  y = -40
+  width = 28
+  height = 28
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = 
+  button_element_executable_block_identifier = blk_54e1df56
+  [executable_block:blk_54e1df56][type:generic] = [executables:db902ca5;]
+  [executable_action_instance:db902ca5][action_type:openlink] = https://www.tiktok.com/@chkaduuu.s
+  backgroundnormal = [source:local]/config/fancymenu/assets/icon_tiktok.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icon_tiktok_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/icon_tiktok.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_8c603ffe] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_8c603ffe
+}
+
+# FM_HIDE_ICONS: language/accessibility icon buttons (identified by position, see notes)
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376370
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376382
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376394
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376406
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604370
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604382
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604394
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604406
+  anchor_point = vanilla
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 2513b74f-78b5-4b7d-ac03-8a9777827abc
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 281
+  y = -40
+  width = 28
+  height = 28
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  label = 
+  button_element_executable_block_identifier = blk_ba801704
+  [executable_block:blk_ba801704][type:generic] = [executables:3c12e2b2;]
+  [executable_action_instance:3c12e2b2][action_type:openlink] = https://mythoscore.gt.tc/
+  backgroundnormal = [source:local]/config/fancymenu/assets/icon_site.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icon_site_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/icon_site.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  [loading_requirement_container_meta:act_2891e7c9] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = act_2891e7c9
+}
