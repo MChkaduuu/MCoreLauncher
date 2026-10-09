@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "mods": [
+    {
+      "name": "MCoreGPSMod-1.0.0.jar",
+      "sha1": "ec730e5d8390838ec8e7ee3b122caf07ac64eec2",
+      "size": 43080
+    },
+    {
+      "name": "ThirdPersonNametags-1.4.1.jar",
+      "sha1": "80fc45bce0a3513eeafbf513a05c2d57d3fc8fdb",
+      "size": 91444
+    },
+    {
+      "name": "fabric-api-0.136.1+1.21.8.jar",
+      "sha1": "56a377bdbf4d83a90d6863ca91b4776f7f09a46b",
+      "size": 2269700
+    },
+    {
+      "name": "konkrete_fabric_1.9.12_MC_1.21.6.jar",
+      "sha1": "8a4c9076e5f66e3811e52acf344f62125ccea64f",
+      "size": 664438
+    },
+    {
+      "name": "mcorevoicechat-1.1.0+mc1.21.8.jar",
+      "sha1": "d506ef80f6825c2ad12ab6a4063103c9e1880434",
+      "size": 482461
+    },
+    {
+      "name": "melody_fabric_1.0.12_MC_1.21.6.jar",
+      "sha1": "99bbb8ac9e86b7861f4cb7a0302f0668a5ff0e45",
+      "size": 188047
+    }
+  ],
+  "resourcepacks": [
+    {
+      "name": "Addon.zip",
+      "sha1": "7c644d86568d8cc387ffa694724b56c91f90b4f8",
+      "size": 31346
+    },
+    {
+      "name": "GTAHud.zip",
+      "sha1": "8af4ec72333e6424f1a4e0be640f3041d043eb75",
+      "size": 41190
+    },
+    {
+      "name": "MCoreBarriersModels.zip",
+      "sha1": "b0dc9aa0eb9845b255d8c418bfd6cb6ec30e5707",
+      "size": 40538
+    },
+    {
+      "name": "MCoreDetails.zip",
+      "sha1": "360c8fbccaefb21ce8f5ece7d4bf921ee4f3cfa2",
+      "size": 6544872
+    },
+    {
+      "name": "MCoreMac.zip",
+      "sha1": "2f20afea36898ba67e9ab358e6a6f6b16d9c74e3",
+      "size": 180755
+    },
+    {
+      "name": "MCoreOfficialPack.zip",
+      "sha1": "66a70d9f8dfa7f1a232893adc552dbfe7e8e5b05",
+      "size": 163774
+    },
+    {
+      "name": "MCoreUniversal.zip",
+      "sha1": "e2474074a1a567463d463271f3a8eefa1db1916b",
+      "size": 15287
+    },
+    {
+      "name": "MCoreVehicles.zip",
+      "sha1": "151e832ad1f8174452c79d4403dd1954104a27fb",
+      "size": 9349070
+    },
+    {
+      "name": "MythosTab.zip",
+      "sha1": "fc974dd7488bc0a67226764f1db5d32cbe0e5bb4",
+      "size": 1670
+    }
+  ]
+}
