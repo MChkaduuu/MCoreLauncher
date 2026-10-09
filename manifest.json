@@ -83,5 +83,17 @@
       "sha1": "fc974dd7488bc0a67226764f1db5d32cbe0e5bb4",
       "size": 1670
     }
+  ],
+  "configs": [
+    {
+      "name": ".git.zip",
+      "sha1": "2e789646ec13195a5a3267ab8a50badd103cd684",
+      "size": 4060564
+    },
+    {
+      "name": "fancymenu.zip",
+      "sha1": "c2f64831dc065b6dcc8b3ffda9898d39bf220af3",
+      "size": 4045616
+    }
   ]
 }
