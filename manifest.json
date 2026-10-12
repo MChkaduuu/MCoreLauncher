@@ -2,9 +2,24 @@
   "version": 1,
   "mods": [
     {
+      "name": "F5Zoom-1.1+1.21.6-1.21.8.jar",
+      "sha1": "de477964ac4a267df83422eb09f3d881acdde7b0",
+      "size": 13770
+    },
+    {
+      "name": "MCoreEstateMod-1.0.0.jar",
+      "sha1": "14ffc19031c3f9dc5fbad7c1c4d233cd37f1c489",
+      "size": 51850
+    },
+    {
       "name": "MCoreGPSMod-1.0.0.jar",
       "sha1": "ec730e5d8390838ec8e7ee3b122caf07ac64eec2",
       "size": 43080
+    },
+    {
+      "name": "MCoreVehiclesMod-2.5.jar",
+      "sha1": "7dfb6cf539fb8aedfb6b344325bf8302e7ea2cb5",
+      "size": 317928
     },
     {
       "name": "ThirdPersonNametags-1.4.1.jar",
@@ -12,19 +27,24 @@
       "size": 91444
     },
     {
+      "name": "cloth-config-19.0.147-fabric.jar",
+      "sha1": "d3bd78860580da556990726af3bed1169e69933e",
+      "size": 1149126
+    },
+    {
       "name": "fabric-api-0.136.1+1.21.8.jar",
       "sha1": "56a377bdbf4d83a90d6863ca91b4776f7f09a46b",
       "size": 2269700
     },
     {
-      "name": "fancymenu_fabric_3.7.1_MC_1.21.8.jar",
-      "sha1": "5cc89ba77e619fc299b0665362698552a84e28f7",
-      "size": 3658738
+      "name": "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+      "sha1": "62ae40a31b689b52fde399f2143d547a631e942c",
+      "size": 8142858
     },
     {
-      "name": "konkrete_fabric_1.9.12_MC_1.21.6.jar",
-      "sha1": "8a4c9076e5f66e3811e52acf344f62125ccea64f",
-      "size": 664438
+      "name": "mcorephone-1.1.0+mc1.21.8.jar",
+      "sha1": "de268f902888f66a0d5ac04181a104c56dc874b5",
+      "size": 542535
     },
     {
       "name": "mcorevoicechat-1.1.0+mc1.21.8.jar",
@@ -32,9 +52,24 @@
       "size": 482461
     },
     {
-      "name": "melody_fabric_1.0.12_MC_1.21.6.jar",
-      "sha1": "99bbb8ac9e86b7861f4cb7a0302f0668a5ff0e45",
-      "size": 188047
+      "name": "xaerominimap-fabric-1.21.8-26.5.0.jar",
+      "sha1": "8952a0c83804b6e2a91e36d200898a9f49176457",
+      "size": 2197387
+    },
+    {
+      "name": "xaeroworldmap-fabric-1.21.8-1.46.0.jar",
+      "sha1": "835e32ceb7cb5e253f9ef5c8cb569ed01d835651",
+      "size": 1468676
+    },
+    {
+      "name": "yet_another_config_lib_v3-3.8.2+1.21.6-fabric.jar",
+      "sha1": "85932b3db38a6bb2161bf75b126a36c87040ce64",
+      "size": 1130373
+    },
+    {
+      "name": "zoomify-2.15.2+1.21.6.jar",
+      "sha1": "8e56f0a7c8fcd77e0c6472a4dfac50651d89b7c8",
+      "size": 873073
     }
   ],
   "resourcepacks": [
