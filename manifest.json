@@ -17,9 +17,24 @@
       "size": 43080
     },
     {
-      "name": "MCoreVehiclesMod-2.5.jar",
-      "sha1": "7dfb6cf539fb8aedfb6b344325bf8302e7ea2cb5",
-      "size": 317928
+      "name": "MCoreHUD-1.0.1.jar",
+      "sha1": "02d59bd2bab75cc5487f9d7e9e4c259d5abce8cd",
+      "size": 93008
+    },
+    {
+      "name": "MCoreTab-2.0.1.jar",
+      "sha1": "271dae75c8eb897f565055ec053f57873eb66890",
+      "size": 296227
+    },
+    {
+      "name": "MCoreUniversalMod-1.0.0.jar",
+      "sha1": "973d21ae521138023c52f98a85a2c784ace1446e",
+      "size": 15481
+    },
+    {
+      "name": "MCoreVehiclesMod-2.6.jar",
+      "sha1": "6b46e6d2a143b675562259015fb591239b68b539",
+      "size": 567672
     },
     {
       "name": "ThirdPersonNametags-1.4.1.jar",
@@ -42,9 +57,14 @@
       "size": 8142858
     },
     {
-      "name": "mcorephone-1.1.0+mc1.21.8.jar",
-      "sha1": "de268f902888f66a0d5ac04181a104c56dc874b5",
-      "size": 542535
+      "name": "mcore-admin-ranks-mod-1.0.0.jar",
+      "sha1": "a815e56bf39be52e031d90945b632437c171ad47",
+      "size": 47086
+    },
+    {
+      "name": "mcorephone-1.2.0+mc1.21.8.jar",
+      "sha1": "159f6f3417f84d0aa44e489261f0442d700c34cf",
+      "size": 587062
     },
     {
       "name": "mcorevoicechat-1.1.0+mc1.21.8.jar",
@@ -79,11 +99,6 @@
       "size": 31346
     },
     {
-      "name": "GTAHud.zip",
-      "sha1": "8af4ec72333e6424f1a4e0be640f3041d043eb75",
-      "size": 41190
-    },
-    {
       "name": "MCoreBarriersModels.zip",
       "sha1": "b0dc9aa0eb9845b255d8c418bfd6cb6ec30e5707",
       "size": 40538
@@ -107,16 +122,6 @@
       "name": "MCoreUniversal.zip",
       "sha1": "e2474074a1a567463d463271f3a8eefa1db1916b",
       "size": 15287
-    },
-    {
-      "name": "MCoreVehicles.zip",
-      "sha1": "151e832ad1f8174452c79d4403dd1954104a27fb",
-      "size": 9349070
-    },
-    {
-      "name": "MythosTab.zip",
-      "sha1": "fc974dd7488bc0a67226764f1db5d32cbe0e5bb4",
-      "size": 1670
     }
   ],
   "configs": [
