@@ -22,19 +22,24 @@
       "size": 93008
     },
     {
+      "name": "MCoreSkinsMod-1.0.0.jar",
+      "sha1": "84af6ca6acc4cc24b2a96672c21097f78d9ee8a7",
+      "size": 31608
+    },
+    {
       "name": "MCoreTab-2.0.1.jar",
-      "sha1": "271dae75c8eb897f565055ec053f57873eb66890",
-      "size": 296227
+      "sha1": "938f7e6e82b79a77e8b26004bd5ab1cf0d859c25",
+      "size": 296183
     },
     {
-      "name": "MCoreUniversalMod-1.0.0.jar",
-      "sha1": "973d21ae521138023c52f98a85a2c784ace1446e",
-      "size": 15481
+      "name": "MCoreUniversalMod-1.3.0.jar",
+      "sha1": "c3a59ed52e29dea676779c6108d400eff3a1d7e9",
+      "size": 42285
     },
     {
-      "name": "MCoreVehiclesMod-2.6.jar",
-      "sha1": "6b46e6d2a143b675562259015fb591239b68b539",
-      "size": 567672
+      "name": "MCoreVehiclesMod-2.9.jar",
+      "sha1": "27602c44bce4a579cec0223f87788e9234785a4c",
+      "size": 3971840
     },
     {
       "name": "ThirdPersonNametags-1.4.1.jar",
@@ -57,14 +62,19 @@
       "size": 8142858
     },
     {
-      "name": "mcore-admin-ranks-mod-1.0.0.jar",
-      "sha1": "a815e56bf39be52e031d90945b632437c171ad47",
-      "size": 47086
+      "name": "gunlink-mod-0.0.1.jar",
+      "sha1": "4e0e195871c3e0c9d9aa15da7bb75b7dc3b1f072",
+      "size": 44064276
     },
     {
-      "name": "mcorephone-1.2.0+mc1.21.8.jar",
-      "sha1": "159f6f3417f84d0aa44e489261f0442d700c34cf",
-      "size": 587062
+      "name": "mcoremodelsmod-1.0.0.jar",
+      "sha1": "91d9c54dae0ad07b0b1459d6114b9fb192062e53",
+      "size": 34198
+    },
+    {
+      "name": "mcorephone-1.3.0+mc1.21.8.jar",
+      "sha1": "390924ce7aea6372f518a7f760c06dc8b37328d1",
+      "size": 1442248
     },
     {
       "name": "mcorevoicechat-1.1.0+mc1.21.8.jar",
